@@ -1,0 +1,23 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "prettier"],
+  "env": {
+    "es6": true,
+    "node": true,
+    "jest": true
+  },
+  "rules": {
+    "quotes": ["error", "double"],
+    "no-console": "off",
+    "no-unused-vars": ["error", { "varsIgnorePattern": "^_" }],
+    "arrow-body-style": ["error", "as-needed"],
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "windows"],
+    "eqeqeq": ["error", "always"],
+    "no-use-before-define": ["error", { "functions": false, "classes": false }],
+    "no-shadow": "error"
+  }
+}
